@@ -1,0 +1,119 @@
+/*
+Author:Kavina
+Theme:Beauty
+Version:1.0
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+     
+}
+.text-center{
+    text-align: center;
+}
+a{
+    color:#e16c89;
+}
+a:hover{
+    color: #837a7d;
+}
+.tbl-full{
+    width:100%;
+}
+table tr th{
+    border-bottom:1px black solid; 
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+
+}
+.tbl30{
+    width: 50%;
+}
+.btn-primary{
+    background-color:#40739e;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+}
+.btn-primary:hover{
+    background-color: #718093;
+    color: white;
+}
+.btn-secondary{
+    background-color:#7bed9f;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+}
+.btn-secondary:hover{
+    background-color:#2ed573;
+    color: black;
+}
+.btn-danger{
+    background-color:#ff5e57;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+}
+.btn-danger:hover{
+    background-color:#ff3f34;
+    color: black;
+}
+.success{
+    color:#2ed573;
+}
+
+.failed{
+    color:#ff3f34;
+}
+
+/* CSS for menu*/
+.menu{
+    text-align: center;
+    border-bottom: 1px #837a7d solid;
+}
+.menu  ul{
+    list-style-type: none;    
+}
+.menu ul li{
+    display: inline;
+    padding:1%;
+    font-size: 1rem;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: 550;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/* CSS for main content */
+.main-content{
+    padding: 2.5% 0;
+    background-color: #f1f2f6;
+     
+}
+.col-4{
+    width: 18%;
+    background-color:white;
+    margin: 2%;
+    padding: 1%;
+    float:left;
+}
+/* CSS for login */
+.login{
+   width: 30%;
+   border: 1px solid rgb(87, 79, 79);  
+   margin: 5% auto;
+}

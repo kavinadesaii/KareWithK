@@ -1,0 +1,230 @@
+/* 
+  Auth-Kavina
+  Theme:Beauty Website
+  
+*/
+*{
+  margin: 0 0;
+  padding: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+   
+}
+.container{
+      width: 95%;
+      margin: 0.1% auto;
+      padding: 0.5%;
+      
+}
+.clearfix{
+  clear: both;
+  float: none;
+}
+a{
+  color: #e16c89;
+  text-decoration: none;
+}
+a:hover{
+  color:grey;
+}
+.btn{
+  padding: 0.5%;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.btn-primary{
+  background-color:#e16c89;
+  color: white;
+  cursor: pointer;
+}
+.btn-primary:hover{
+  background-color: #837a7d;
+  color: white;
+}
+h2{
+  color: #837a7d;
+  font-size: 1.5rem;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  font-weight: 700;
+}
+.img-responsive{
+  width: 100%;
+  height: 100%;
+  border-radius:7px;
+}
+
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+/* CSS for navbar*/
+.navbar{
+  background-image: url(../ht);
+  background-position: center;
+  background-size: cover;
+}
+.logo{
+  width: 6%;
+  float: left;
+}
+
+.menu ul{
+  list-style: none;
+}
+.menu ul li{
+  display: inline;
+  padding: 0.8%;
+  font-weight: 550;
+  font-size: 1 rem;
+}
+
+.menu{
+  line-height:95px;;
+}
+/*CSS for search section*/
+.search-bar{
+  background-image: url(../images/background2.jpg);
+  padding: 6% 0;
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.search-bar input[type="search"]{
+  width: 50%;
+  padding: 0.5%;
+  font-size: 1rem;
+  border: none;
+  border-radius:5px;
+}
+/* CSS categories */
+
+.box1{
+  
+  width: 47%;
+  float: left;
+  margin: 1%;
+}
+/*CSS for panel 1*/
+.panel{
+  width: 100%;
+  height: 100%;
+}
+/*CSS for explore*/
+.products{
+  background-color: #ffe6e6;
+}
+.box2{
+  width: 46%;
+  margin: 1%;
+  float: left;
+  padding: 1%;
+  border-radius: 15px;
+}
+.product-img{
+  width: 27%;
+  float: left;
+  
+}
+.product-desc{
+  width: 60%;
+  float: left;
+  margin-left: 8%;
+}
+.product-price{
+  font-size: 1.1 rem;
+  margin: 2% 0;
+}
+.product-detail{
+  font-size:0.9rem;
+  color:rgb(155, 100, 138);
+}
+/* CSS  for social */
+.Social ul{
+  list-style-type: none;
+}
+.Social ul li{
+  display: inline;
+  padding: 1%;
+}
+.order{
+  width: 50%;
+  margin: 0 auto;
+}
+.input-responsive{
+  background-color: #ffe6e6;
+  width: 96%;
+  padding: 1%;
+  margin-bottom: 3%;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.order-label{
+  margin-bottom: 1%; 
+  font-weight: bold;
+}
+fieldset{
+  padding: 4%;
+}
+  
+/* CSS for mobile or smaller screen*/
+@media only screen and (max-width:768px){
+  .logo{
+    width: 20%;
+    
+  }
+  .menu{
+    width: 80%;
+    float: left;
+  }
+  .search-bar input[type="search"]{
+    width: 90%;
+    margin-bottom: 5%;
+    padding: 2%;
+  }
+  .btn{
+    width: 70%;
+    padding: 1.5%;
+  }
+  .box1{
+    width: 95%;
+    margin: 2% auto;
+    float: none;
+  }
+  h2{
+    margin: 2%;
+  }
+  .products{
+    padding: 5% 0;
+  }
+  .box2{
+    width: 95%;
+    padding: 5%;
+    margin: 2% 0 ;
+  }
+  .Social{
+    padding: 5% 0;
+  }
+  .footer{
+    padding: 5% 0;
+
+  }
+  .order{
+    width: 100%;
+  }
+
+}  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
